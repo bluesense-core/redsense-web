@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/* =============== 
+      General 
+=================*/
+@font-face {
+    font-family: 'gill-sans-mt-regular', sans-serif;
+    src: url(fonts/GIL_____.TTF);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    font-family: Poppins;
+    font-size: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* =============== 
+      Layout
+=================*/
+/* Header */
+header {
+    border-bottom: 5px solid #af2c2b;
 }
 
-.App-link {
-  color: #61dafb;
+.header-logo {
+    width: 10em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#header-nav {
+    width: 30em;
+    color: #9e9e9e;
+}
+
+#header-nav .nav-link {
+    color: #9e9e9e;
+    font-weight: 600;
+}
+
+#header-nav .nav-link.active {
+    color: #fff;
+    background-color: #af2c2b;
+    border-radius: 5px;
+}
+
+#header-nav .nav-link:hover,
+#header-nav .nav-link:focus {
+    color: #fff;
+    background-color: rgba(175, 44, 43, 0.8);
+}
+.navbar-toggler {
+    border: none;
+    margin-top: 10px;
+}
+@media screen and (max-width: 991px) {
+    #header-nav {
+        width: initial;
+        height: 10em;
+    }
 }

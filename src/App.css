@@ -2,8 +2,8 @@
       General 
 =================*/
 @font-face {
-    font-family: 'gill-sans-mt-regular', sans-serif;
-    src: url(fonts/GIL_____.TTF);
+    font-family: 'gill-sans-mt', sans-serif;
+    src: url(fonts/gill-sans-mt.ttf);
 }
 
 html,
@@ -18,46 +18,21 @@ body {
     font-size: 1rem;
 }
 
-/* =============== 
-      Layout
-=================*/
-/* Header */
-header {
-    border-bottom: 5px solid #af2c2b;
+main {
+    margin-top: 103px;
 }
 
-.header-logo {
-    width: 10em;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#header-nav {
-    width: 30em;
-    color: #9e9e9e;
+.offcanvas {
+    transition: 1000ms;
 }
 
-#header-nav .nav-link {
-    color: #9e9e9e;
-    font-weight: 600;
-}
-
-#header-nav .nav-link.active {
-    color: #fff;
-    background-color: #af2c2b;
-    border-radius: 5px;
-}
-
-#header-nav .nav-link:hover,
-#header-nav .nav-link:focus {
-    color: #fff;
-    background-color: rgba(175, 44, 43, 0.8);
-}
-.navbar-toggler {
-    border: none;
-    margin-top: 10px;
-}
-@media screen and (max-width: 991px) {
-    #header-nav {
-        width: initial;
-        height: 10em;
+@media screen and (max-width: 992px) {
+    main {
+        margin-top: 89px;
     }
 }

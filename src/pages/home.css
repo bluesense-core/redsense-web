@@ -1,0 +1,173 @@
+/* Hero */
+#home-hero {
+    background-image: url(../images/home-img/home-header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12em 0;
+}
+
+#home-hero h1 {
+    font-weight: 700;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
+}
+
+#home-hero p {
+    padding: 0 12em;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.555);
+}
+
+#home-hero a {
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #af2c2b;
+    border-color: #af2c2b;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    #home-hero p {
+        padding: 0 10em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #home-hero p {
+        padding: 0 5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #home-hero p {
+        padding: 0;
+    }
+
+    #home-hero {
+        padding: 8em 0;
+    }
+}
+
+/* Client */
+/* #home-client {
+    border-bottom: 5px solid #af2c2b;
+} */
+
+#home-client .client-img {
+    max-width: 50%;
+    display: block;
+    filter: grayscale(100%);
+    transition: 1000ms;
+}
+
+#home-client .client-img:hover,
+#home-client .client-img:focus {
+    filter: none;
+    transform: scale(1.2);
+}
+
+#home-client .logo-div {
+    max-width: 50%;
+}
+
+/* Services */
+#home-services {
+    background-image: url(../images/home-img/home-services-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+
+#home-services h2 {
+    font-weight: 600;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
+}
+
+#home-services .flex-box {
+    margin-top: 5em;
+}
+
+#home-services .red-box {
+    background-color: #af2c2b;
+    width: 30%;
+    transition: 500ms;
+    box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.2);
+}
+
+#home-services .red-box:hover {
+    transform: scale(1.1);
+}
+
+#home-services .white-bar {
+    background-color: #fff;
+    width: 30%;
+    height: 6px;
+}
+
+#home-services h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+#home-services p {
+    margin-top: 0.8em;
+}
+
+@media screen and (max-width: 992px) {
+    #home-services {
+        padding: 4em 0;
+    }
+
+    #home-services .red-box {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
+
+/* How We Work */
+#home-work {
+    padding: 5em 0;
+}
+
+#home-work h2 {
+    font-weight: 600;
+    color: #af2c2b;
+}
+
+#home-work h3 {
+    font-weight: 700;
+    color: #af2c2b;
+    font-size: 2em;
+}
+
+#home-work p {
+    color: #9e9e9e;
+}
+
+#home-work img {
+    max-width: 100%;
+}
+
+#home-work .processes {
+    margin-top: 3em;
+}
+
+#home-work .process-card {
+    padding: 3em 2em;
+    width: 22%;
+    transition: 1000ms;
+    box-shadow: 0px 24px 48px rgba(17, 16, 62, 0.12);
+}
+
+@media screen and (max-width: 992px) {
+    #home-work .process-card {
+        width: 50%;
+        margin-bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #home-work .process-card {
+        width: 70%;
+    }
+}

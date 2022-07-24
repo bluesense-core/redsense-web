@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Image, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import Logo from '../images/logo.svg';
+import './header.css';
 
 export default function Header() {
     const [show, setShow] = useState(false);
@@ -9,7 +10,7 @@ export default function Header() {
     const handleShow = () => setShow(true);
 
     return (
-        <header className='py-2'>
+        <header className='py-2 fixed-top bg-white'>
             <Navbar className='bg-white' expand='lg'>
                 <Container>
                     <Navbar.Brand href='/home' className='p-0 d-flex'>
@@ -28,7 +29,6 @@ export default function Header() {
                         show={show}
                         onHide={handleClose}
                         placement='end'
-                        backdrop={false}
                         className='flex-lg-grow-0'>
                         <Offcanvas.Header className='py-4' closeButton />
 

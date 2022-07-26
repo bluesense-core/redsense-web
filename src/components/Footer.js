@@ -9,7 +9,7 @@ export default function Footer() {
         <footer className='text-white py-5'>
             <Container className='d-flex flex-sm-row flex-column justify-content-between align-items-center'>
                 <div>
-                    <Navbar.Brand href='/home'>
+                    <Navbar.Brand href='/'>
                         <Image
                             src={Logo}
                             className='footer-logo'

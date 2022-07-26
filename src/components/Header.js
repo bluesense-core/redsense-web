@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { Container, Image, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import Logo from '../images/logo.svg';
 import './header.css';
@@ -9,11 +10,14 @@ export default function Header() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const [active, setActive] = useState('/');
+    const handleActive = (e) => setActive(e);
+
     return (
         <header className='py-2 fixed-top bg-white'>
             <Navbar className='bg-white' expand='lg'>
                 <Container>
-                    <Navbar.Brand href='/home' className='p-0 d-flex'>
+                    <Navbar.Brand href='/' className='p-0 d-flex'>
                         <Image
                             src={Logo}
                             className='header-logo'
@@ -36,35 +40,35 @@ export default function Header() {
                             <Nav
                                 id='header-nav'
                                 variant='pills'
-                                defaultActiveKey='/home'
+                                activeKey={active}
+                                defaultActiveKey={active}
+                                onSelect={(e) => {
+                                    handleActive(e);
+                                }}
                                 className=' text-uppercase justify-content-between align-items-center'>
                                 <Nav.Item>
-                                    <Nav.Link
-                                        href='/home'
-                                        className='py-1 px-3'>
+                                    <NavLink to='/' className='py-1 px-3'>
                                         Home
-                                    </Nav.Link>
+                                    </NavLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link
-                                        eventKey='/about'
-                                        className='py-1 px-3'>
+                                    <NavLink to='/about' className='py-1 px-3'>
                                         About
-                                    </Nav.Link>
+                                    </NavLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link
-                                        eventKey='/projects'
+                                    <NavLink
+                                        to='/projects'
                                         className='py-1 px-3'>
                                         Projects
-                                    </Nav.Link>
+                                    </NavLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link
-                                        eventKey='/contact'
+                                    <NavLink
+                                        to='/contact'
                                         className='py-1 px-3'>
                                         Contact
-                                    </Nav.Link>
+                                    </NavLink>
                                 </Nav.Item>
                             </Nav>
                         </Offcanvas.Body>

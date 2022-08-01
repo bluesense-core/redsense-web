@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import Logo from '../images/logo.svg';
 import { FaLinkedin, FaTwitterSquare, FaFacebookSquare } from 'react-icons/fa';
@@ -48,27 +49,27 @@ export default function Footer() {
 
                     <Nav id='footer-nav' className='my-4'>
                         <Nav.Item>
-                            <Nav.Link href='/contact' className='py-0 px-3'>
+                            <NavLink to='/contact' className='py-0 px-3'>
                                 Contact
-                            </Nav.Link>
+                            </NavLink>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link href='/about' className='py-0 px-3'>
+                            <NavLink to='/about' className='py-0 px-3'>
                                 About
-                            </Nav.Link>
+                            </NavLink>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link href='/faq' className='py-0 px-3'>
+                            <NavLink to='/' className='py-0 px-3'>
                                 FAQ's
-                            </Nav.Link>
+                            </NavLink>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link href='/terms' className='py-0 px-3'>
+                            <NavLink to='/' className='py-0 px-3'>
                                 Terms of Use
-                            </Nav.Link>
+                            </NavLink>
                         </Nav.Item>
                     </Nav>
 

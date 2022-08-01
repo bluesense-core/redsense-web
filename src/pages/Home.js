@@ -24,7 +24,7 @@ export default function Home() {
                         requirements.
                     </p>
                     <a
-                        href='/about'
+                        href='about'
                         className='text-uppercase text-white d-inline-block mt-3 px-5 py-2'>
                         learn more
                     </a>

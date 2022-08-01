@@ -6,7 +6,7 @@ import './footer.css';
 
 export default function Footer() {
     return (
-        <footer className='text-white py-5'>
+        <footer className='text-white py-4'>
             <Container className='d-flex flex-sm-row flex-column justify-content-between align-items-center'>
                 <div>
                     <Navbar.Brand href='/'>
@@ -25,7 +25,7 @@ export default function Footer() {
                 <div>
                     <div className='social-links d-flex py-sm-0 pt-4 justify-content-sm-end justify-content-center align-items-end'>
                         <a
-                            href='http://'
+                            href='https://www.linkedin.com/company/redsense/'
                             target='_blank'
                             rel='noopener noreferrer'>
                             <FaLinkedin className='social-icon me-sm-3 mx-3' />{' '}
@@ -66,8 +66,8 @@ export default function Footer() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link href='/support' className='py-0 px-3'>
-                                Support
+                            <Nav.Link href='/terms' className='py-0 px-3'>
+                                Terms of Use
                             </Nav.Link>
                         </Nav.Item>
                     </Nav>

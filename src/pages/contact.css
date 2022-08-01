@@ -43,6 +43,11 @@
     color: #9e9e9e;
 }
 
+#contact-main .contact-text a {
+    text-decoration: none;
+    color: #9e9e9e;
+}
+
 /* #contact-main form {
     color: #9e9e9e;
 } */

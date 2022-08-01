@@ -14,7 +14,7 @@ export default function Contact() {
                             width='100%'
                             height='408'
                             id='gmap_canvas'
-                            src='https://maps.google.com/maps?q=Bluesense,%20victoria%20island,%20Lagos,%20Nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed'
+                            src='https://maps.google.com/maps?q=Port%20Harcourt,%20Rivers%20State&t=&z=13&ie=UTF8&iwloc=&output=embed'
                             frameBorder='0'
                             scrolling='no'
                             marginHeight='0'
@@ -39,22 +39,25 @@ export default function Contact() {
                                 <div className='d-flex justify-content-start pb-1'>
                                     <FaMapMarkerAlt className='contact-icon me-3' />
                                     <p className='contact-text'>
-                                        #1 Industrial Way, Victoria Island,
-                                        Lagos, Nigeria.
+                                        Port-Harcourt, Rivers State, Nigeria.
                                     </p>
                                 </div>
 
                                 <div className='d-flex justify-content-start pb-1'>
                                     <FaPhoneAlt className='contact-icon me-3' />
                                     <p className='contact-text'>
-                                        +234 901 784 89
+                                        <a href='tel:+234 806 578 4615'>
+                                            +234 806 578 4615
+                                        </a>
                                     </p>
                                 </div>
 
                                 <div className='d-flex justify-content-start pb-1'>
                                     <FaEnvelope className='contact-icon me-3' />
                                     <p className='contact-text'>
-                                        info@redsense.co
+                                        <a href='mailto:info@redsense.co'>
+                                            info@redsense.co
+                                        </a>
                                     </p>
                                 </div>
                             </div>

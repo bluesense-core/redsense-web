@@ -14,7 +14,7 @@ export default function Header() {
     const handleActive = (e) => setActive(e);
 
     return (
-        <header className='py-2 fixed-top bg-white'>
+        <header className='py-1 fixed-top bg-white'>
             <Navbar className='bg-white' expand='lg'>
                 <Container>
                     <Navbar.Brand href='/' className='p-0 d-flex'>
@@ -47,17 +47,24 @@ export default function Header() {
                                 }}
                                 className=' text-uppercase justify-content-between align-items-center'>
                                 <Nav.Item>
-                                    <NavLink to='/' className='py-1 px-3'>
+                                    <NavLink
+                                        onClick={handleClose}
+                                        to='/'
+                                        className='py-1 px-3'>
                                         Home
                                     </NavLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <NavLink to='/about' className='py-1 px-3'>
+                                    <NavLink
+                                        onClick={handleClose}
+                                        to='/about'
+                                        className='py-1 px-3'>
                                         About
                                     </NavLink>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <NavLink
+                                        onClick={handleClose}
                                         to='/projects'
                                         className='py-1 px-3'>
                                         Projects
@@ -65,6 +72,7 @@ export default function Header() {
                                 </Nav.Item>
                                 <Nav.Item>
                                     <NavLink
+                                        onClick={handleClose}
                                         to='/contact'
                                         className='py-1 px-3'>
                                         Contact

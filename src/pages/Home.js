@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import './home.css';
+import { NavLink } from 'react-router-dom';
 import MVX from '../images/home-img/mvx.webp';
 import Payhippo from '../images/home-img/PayhippoLogo 1.webp';
 import Hugo from '../images/home-img/hugo.webp';
@@ -23,11 +24,11 @@ export default function Home() {
                         safety solutions that are uniquely suited to their asset
                         requirements.
                     </p>
-                    <a
-                        href='about'
+                    <NavLink
+                        to='/about'
                         className='text-uppercase text-white d-inline-block mt-3 px-5 py-2'>
                         learn more
-                    </a>
+                    </NavLink>
                 </Container>
             </section>
 

@@ -33,9 +33,9 @@ const cardDetails = [
     {
         id: 4,
         img: Project4,
-        title: 'Air Compression Systems',
+        title: 'Breathing Air Systems',
         subtitle:
-            'RedSense is also a leading name in Air Compression. We have proven experience in Air Compression projects, and Breathing Air Compression projects...',
+            'RedSense is also a leading name in Breathing Air systems. We have proven experience in Breathing Air systems.',
         link: '/',
     },
     {

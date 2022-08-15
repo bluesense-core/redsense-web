@@ -78,6 +78,7 @@
 
 #projects-cards img {
     object-fit: cover;
+    border-radius: 15px;
 }
 
 #projects-cards a:hover {

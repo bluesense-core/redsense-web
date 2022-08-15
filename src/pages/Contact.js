@@ -14,7 +14,7 @@ export default function Contact() {
                             width='100%'
                             height='408'
                             id='gmap_canvas'
-                            src='https://maps.google.com/maps?q=Port%20Harcourt,%20Rivers%20State&t=&z=13&ie=UTF8&iwloc=&output=embed'
+                            src='https://maps.google.com/maps?q=6%20Chief%20Nwuke%20Street,%20Trans%20Amadi%20Industrial%20Layout.%20&t=&z=13&ie=UTF8&iwloc=&output=embed'
                             frameBorder='0'
                             scrolling='no'
                             marginHeight='0'
@@ -39,7 +39,13 @@ export default function Contact() {
                                 <div className='d-flex justify-content-start pb-1'>
                                     <FaMapMarkerAlt className='contact-icon me-3' />
                                     <p className='contact-text'>
-                                        Port-Harcourt, Rivers State, Nigeria.
+                                        6 Chief Nwuke Street,
+                                        <br />
+                                        Trans Amadi Industrial Layout.
+                                        <br />
+                                        Port Harcourt, Rivers State.
+                                        <br />
+                                        Nigeria
                                     </p>
                                 </div>
 
@@ -56,7 +62,7 @@ export default function Contact() {
                                     <FaEnvelope className='contact-icon me-3' />
                                     <p className='contact-text'>
                                         <a href='mailto:info@redsense.co'>
-                                            info@redsense.co
+                                            info@redsensefire.com
                                         </a>
                                     </p>
                                 </div>

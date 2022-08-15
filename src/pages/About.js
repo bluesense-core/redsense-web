@@ -15,14 +15,13 @@ export default function About() {
                     <div>
                         <h2 className='pb-1'>Our History</h2>
                         <p>
-                            Our fire protection engineering company has been a
-                            quiet reasoning partner alongside a number of
-                            international oil companies, government
-                            organisations + private companies, in a variety of
-                            sectors. Working hand-in-hand with top tier
-                            executives and safety units like yours, we guide
-                            them through the rough patches of building robust
-                            and fire protected organisations.
+                            Our founders have been a quiet reasoning partner
+                            alongside a number of international oil companies,
+                            government organisations + private companies, in a
+                            variety of sectors. Working hand-in-hand with top
+                            tier executives and safety units like yours, we
+                            guide them through the rough patches of building
+                            robust and fire protected organisations.
                         </p>
                     </div>
 
@@ -30,7 +29,7 @@ export default function About() {
                         <h2 className='pb-1'>Our Mission</h2>
                         <p>
                             Our mission is to help build the next generation of
-                            some of the safest companies in the world
+                            the safest energy companies in the world
                         </p>
                     </div>
 
@@ -43,8 +42,7 @@ export default function About() {
                                     <strong>Safety:</strong> we believe safety
                                     should come before profits. We have a robust
                                     history of creating safer companies for our
-                                    clientele, we go the extra mile to ensure
-                                    this.
+                                    clientele.
                                 </li>
 
                                 <li>

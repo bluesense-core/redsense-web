@@ -25,14 +25,14 @@ export default function Home() {
                         requirements.
                     </p>
                     <NavLink
-                        to='/about'
+                        to='/contact'
                         className='text-uppercase text-white d-inline-block mt-3 px-5 py-2'>
                         learn more
                     </NavLink>
                 </Container>
             </section>
 
-            <section id='home-client' className=' py-4'>
+            {/* <section id='home-client' className=' py-4'>
                 <Container className='d-flex flex-md-nowrap flex-wrap justify-content-between align-items-center'>
                     <div className='d-flex justify-content-center logo-div'>
                         <Image
@@ -58,13 +58,13 @@ export default function Home() {
                         />
                     </div>
 
-                    {/* <div className='text-center  logo-div'>
+                    <div className='text-center  logo-div'>
                         <Image
                             src={ICRC}
                             alt='ICRC Logo'
                             className='client-img mx-2'
                         />
-                    </div> */}
+                    </div>
 
                     <div className='d-flex justify-content-center  logo-div py-md-0 pt-4'>
                         <Image
@@ -74,7 +74,7 @@ export default function Home() {
                         />
                     </div>
                 </Container>
-            </section>
+            </section> */}
 
             <section id='home-services' className='text-white'>
                 <Container>
@@ -84,21 +84,26 @@ export default function Home() {
                         <div className='red-box text-center mb-5 d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Design, Supply & Installation</h3>
                             <p className='mb-4 px-xl-0 px-2'>
-                                We deploy fire protection systems with qualified
-                                professionals. The parts, wiring, and fittings
-                                for your fire systems will be of the highest
-                                calibre if you choose us as your safety partner.
+                                We design, supply, install, commission and
+                                service - Fire Fighting Equipment, such as, Fire
+                                Extinguishers, Fire Trucks, Fire Hose Reel, Fire
+                                Foam & Powders, Equipment Sprinkler System, CO2,
+                                Breathing Air (BA) Systems, Tank Protection
+                                Systems, Total Flooding Systems.
                             </p>
                             <div className='white-bar align-self-end my-0 mx-auto'></div>
                         </div>
 
                         <div className='red-box text-center mb-5 d-flex flex-column justify-content-center align-items-center py-5 px-3'>
-                            <h3>Fire Training</h3>
+                            <h3>Fire Safety Training</h3>
                             <p className='mb-4 px-xl-0 px-2 '>
-                                Our fire safety training programs provide
-                                in-depth, certified instruction to people,
-                                managers, and organizations and extensive
-                                training in a variety of topics.
+                                RedSense offers a host of fire safety training
+                                workshops to support organisations to understand
+                                how to fight small fires, know when to evacuate
+                                and safely protect assets. It is also a legal
+                                requirement for certain members of staff to be
+                                trained in fire safety procedures in the
+                                workplace.
                             </p>
                             <div className='white-bar my-0 align-self-end mx-auto'></div>
                         </div>
@@ -106,10 +111,12 @@ export default function Home() {
                         <div className='red-box text-center d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Servicing & Maintenance</h3>
                             <p className='mb-4 px-xl-0 px-2'>
-                                Your fire safety equipment can be maintained by
-                                a RedSense engineer or technician so that it
-                                continues to perform at its peak level without
-                                requiring maintenance.
+                                Our engineers are highly trained to design,
+                                assemble + install fire protection systems.
+                                Alongside our installation, we will offer
+                                inspection, testing + maintenance for your fire
+                                systems. Servicing also gives you peace-of-mind
+                                to carry-on with your daily business functions.
                             </p>
                             <div className='white-bar align-self-end my-0 mx-auto'></div>
                         </div>
@@ -117,10 +124,12 @@ export default function Home() {
                         <div className='red-box text-center d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Safety Advisory</h3>
                             <p className='mb-4 px-xl-0 px-2'>
-                                The ideal counsel, planning, and execution
-                                inside and outside the building are necessary
-                                for effective fire prevention. We will be
-                                pleased to handle every step for you.
+                                We have a long established relationship with our
+                                clients in delivering fire safety and security
+                                services. We understand the challenges of
+                                working in different environments, whether it be
+                                manufacturing, high security or buildings where
+                                people have learning difficulties.
                             </p>
                             <div className='white-bar align-self-end my-0 mx-auto'></div>
                         </div>

@@ -14,7 +14,7 @@ export default function Contact() {
                             width='100%'
                             height='408'
                             id='gmap_canvas'
-                            src='https://maps.google.com/maps?q=6%20Chief%20Nwuke%20Street,%20Trans%20Amadi%20Industrial%20Layout.%20&t=&z=13&ie=UTF8&iwloc=&output=embed'
+                            src='https://maps.google.com/maps?q=6%20Chief%20Nwuke%20Street%20Trans%20Amadi%20500221%20Port%20Harcourt&t=&z=13&ie=UTF8&iwloc=&output=embed'
                             frameBorder='0'
                             scrolling='no'
                             marginHeight='0'

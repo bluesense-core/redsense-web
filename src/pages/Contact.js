@@ -39,13 +39,13 @@ export default function Contact() {
                                 <div className='d-flex justify-content-start pb-1'>
                                     <FaMapMarkerAlt className='contact-icon me-3' />
                                     <p className='contact-text'>
-                                        6 Chief Nwuke Street,
+                                        6 Chief Nwuke Street.
                                         <br />
                                         Trans Amadi Industrial Layout.
                                         <br />
                                         Port Harcourt, Rivers State.
                                         <br />
-                                        Nigeria
+                                        Nigeria.
                                     </p>
                                 </div>
 

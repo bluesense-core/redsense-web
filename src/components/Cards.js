@@ -5,6 +5,13 @@ import Project4 from '../images/projects-img/project-4.webp';
 import Project5 from '../images/projects-img/project-5.webp';
 import Project6 from '../images/projects-img/project-6.webp';
 
+import blog1 from '../images/blog-img/blog1.png';
+import blog2 from '../images/blog-img/blog2.jpg';
+import blog3 from '../images/blog-img/blog3.jpg';
+import blog4 from '../images/blog-img/blog4.png';
+import blog5 from '../images/blog-img/blog5.jpg';
+import blog6 from '../images/blog-img/blog6.jpg';
+
 const cardDetails = [
     {
         id: 1,
@@ -56,4 +63,49 @@ const cardDetails = [
     },
 ];
 
-export { cardDetails };
+const blogDetails = [
+    {
+        id: 1,
+        img: blog1,
+        title: 'Vetted Labs',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dignissim nullam tortor. Nulla diam nisl nunc pharetra.',
+        link: '/vetted-labs',
+    },
+    {
+        id: 2,
+        img: blog2,
+        title: 'Vetted Labs',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dignissim nullam tortor. Nulla diam nisl nunc pharetra.',
+        link: '/vetted-labs',
+    },
+    {
+        id: 3,
+        img: blog3,
+        title: 'Vetted Labs',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dignissim nullam tortor. Nulla diam nisl nunc pharetra.',
+        link: '/vetted-labs',
+    },
+    {
+        id: 4,
+        img: blog4,
+        title: 'Vetted Labs',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dignissim nullam tortor. Nulla diam nisl nunc pharetra.',
+        link: '/vetted-labs',
+    },
+    {
+        id: 5,
+        img: blog5,
+        title: 'Vetted Labs',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dignissim nullam tortor. Nulla diam nisl nunc pharetra.',
+        link: '/vetted-labs',
+    },
+    {
+        id: 6,
+        img: blog6,
+        title: 'Vetted Labs',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dignissim nullam tortor. Nulla diam nisl nunc pharetra.',
+        link: '/vetted-labs',
+    },
+];
+
+export { cardDetails, blogDetails };

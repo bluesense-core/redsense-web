@@ -33,7 +33,7 @@ export default function Footer() {
                         </a>
 
                         <a
-                            href='http://'
+                            href='https://twitter.com/redsensehq'
                             target='_blank'
                             rel='noopener noreferrer'>
                             <FaTwitterSquare className='social-icon me-sm-3 mx-3' />{' '}
@@ -47,7 +47,9 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    <Nav id='footer-nav' className='my-4'>
+                    <Nav
+                        id='footer-nav'
+                        className='flex-wrap justify-content-md-end justify-content-center my-4'>
                         <Nav.Item>
                             <NavLink to='/contact' className='py-0 px-3'>
                                 Contact
@@ -61,14 +63,14 @@ export default function Footer() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <NavLink to='/' className='py-0 px-3'>
-                                FAQ's
+                            <NavLink to='/terms' className='py-0 px-3'>
+                                Terms of Use
                             </NavLink>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <NavLink to='/' className='py-0 px-3'>
-                                Terms of Use
+                            <NavLink to='/privacy-policy' className='py-0 px-3'>
+                                Privacy Policy
                             </NavLink>
                         </Nav.Item>
                     </Nav>

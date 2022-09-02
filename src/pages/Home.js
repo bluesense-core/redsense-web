@@ -7,10 +7,10 @@ import Payhippo from '../images/home-img/PayhippoLogo 1.webp';
 import Hugo from '../images/home-img/hugo.webp';
 // import ICRC from '../images/home-img/icrc.webp';
 import Lifehealth from '../images/home-img/Lifestores_Healthcare_Logo 1.webp';
-import Search from '../images/home-img/Search 1.webp';
-import Schedule from '../images/home-img/Schedule 1.webp';
-import Message from '../images/home-img/Message 1.webp';
-import Payment from '../images/home-img/Payment 1.webp';
+import design from '../images/home-img/design.svg';
+import consult from '../images/home-img/consult.svg';
+import install from '../images/home-img/install.svg';
+import supply from '../images/home-img/supply.svg';
 
 export default function Home() {
     return (
@@ -84,12 +84,13 @@ export default function Home() {
                         <div className='red-box text-center mb-5 d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Design, Supply & Installation</h3>
                             <p className='mb-4 px-xl-0 px-2'>
-                                We design, supply, install, commission and
-                                service - Fire Fighting Equipment, such as, Fire
-                                Extinguishers, Fire Trucks, Fire Hose Reel, Fire
-                                Foam & Powders, Equipment Sprinkler System, CO2,
-                                Breathing Air (BA) Systems, Tank Protection
-                                Systems, Total Flooding Systems.
+                                Fire Extinguishers, Fire Trucks, Fire Hose
+                                Reels, Fire Foam & Powders, Equipment Sprinkler
+                                Systems, CO2, Breathing Air (BA) Systems, Tank
+                                Protection Systems, and Total Flooding Systems
+                                are just a few examples of the fire fighting
+                                equipment we design, provide, install,
+                                commission, and service.
                             </p>
                             <div className='white-bar align-self-end my-0 mx-auto'></div>
                         </div>
@@ -97,13 +98,12 @@ export default function Home() {
                         <div className='red-box text-center mb-5 d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Fire Safety Training</h3>
                             <p className='mb-4 px-xl-0 px-2 '>
-                                RedSense offers a host of fire safety training
-                                workshops to support organisations to understand
-                                how to fight small fires, know when to evacuate
-                                and safely protect assets. It is also a legal
-                                requirement for certain members of staff to be
-                                trained in fire safety procedures in the
-                                workplace.
+                                To help your team members learn how to put out
+                                small flames, know when to evacuate, and
+                                securely preserve assets, RedSense can provide
+                                fire safety training courses. Additionally, it
+                                is a legal necessity that some employees receive
+                                training in workplace fire safety measures.
                             </p>
                             <div className='white-bar my-0 align-self-end mx-auto'></div>
                         </div>
@@ -111,12 +111,12 @@ export default function Home() {
                         <div className='red-box text-center d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Servicing & Maintenance</h3>
                             <p className='mb-4 px-xl-0 px-2'>
-                                Our engineers are highly trained to design,
-                                assemble + install fire protection systems.
-                                Alongside our installation, we will offer
-                                inspection, testing + maintenance for your fire
-                                systems. Servicing also gives you peace-of-mind
-                                to carry-on with your daily business functions.
+                                As our engineers are skilled and provide routine
+                                fire equipment maintenance, the chance of
+                                malfunctioning equipment is significantly
+                                decreased, should it be required. Additionally,
+                                servicing gives you the confidence to continue
+                                with your regular business operations.
                             </p>
                             <div className='white-bar align-self-end my-0 mx-auto'></div>
                         </div>
@@ -124,12 +124,17 @@ export default function Home() {
                         <div className='red-box text-center d-flex flex-column justify-content-center align-items-center py-5 px-3'>
                             <h3>Safety Advisory</h3>
                             <p className='mb-4 px-xl-0 px-2'>
-                                We have a long established relationship with our
-                                clients in delivering fire safety and security
-                                services. We understand the challenges of
-                                working in different environments, whether it be
-                                manufacturing, high security or buildings where
-                                people have learning difficulties.
+                                In order to provide a hassle-free installation,
+                                we have always been honest with our information,
+                                including the good and the bad, as part of our
+                                commitment to providing fire safety and security
+                                services to our clients. We are aware of the
+                                challenges that our clients encounter in various
+                                settings, such as manufacturing, high-security
+                                facilities, or other unusual locations. As a
+                                result, we provide our engineers' and team's
+                                expertise, which is well-versed in technical
+                                matters.
                             </p>
                             <div className='white-bar align-self-end my-0 mx-auto'></div>
                         </div>
@@ -152,44 +157,54 @@ export default function Home() {
                         <li className='process-card text-center'>
                             <h3>1</h3>
                             <p>
-                                On all of our projects, we evaluate the site
-                                first. Next, we identify the safety issues that
-                                need to be fixed after the client site has been
-                                assessed.
+                                Our consulting services conduct fire protection
+                                risk assessments, develop individualized fire
+                                safety action plans, and offer on-site
+                                assistance to safeguard you and your employees
+                                from fire and explosions at work. We also
+                                provide solutions to all of your fire-related
+                                inquiries.
                             </p>
-                            <img src={Search} alt='illustration' />
+                            <img src={consult} alt='illustration' />
                         </li>
 
                         <li className='process-card text-center'>
                             <h3>2</h3>
                             <p>
-                                The best solutions for the client safety issues
-                                are then investigated. Prior to installing a
-                                fire system, a fire design is carried out.
+                                Every project starts with the design of a fire
+                                prevention strategy tailored to the demands of
+                                the customer. In order for fire prevention
+                                systems to perform efficiently and put out a
+                                fire, they must also adhere to a stringent set
+                                of laws, statutes, and regulations.
                             </p>
-                            <img src={Schedule} alt='illustration' />
+                            <img src={design} alt='illustration' />
                         </li>
 
                         <li className='process-card text-center'>
                             <h3>3</h3>
                             <p>
-                                RedSense starts with project supply and
-                                installation. The project is commissioned, and
-                                two internal safety personnel are trained to
-                                guarantee the system's smooth operation.
+                                We supply the highest-quality fire system
+                                components, wiring, and fittings available. In
+                                order for you to make the greatest decision for
+                                your safety, we will also provide you with the
+                                chance to select between the market leader and
+                                alternative secure options. 
                             </p>
-                            <img src={Payment} alt='illustration' />
+                            <img src={supply} alt='illustration' />
                         </li>
 
                         <li className='process-card text-center'>
                             <h3>4</h3>
                             <p>
-                                To enhance the safety of the entire
-                                organisation, RedSense will design & implement
-                                safety skill-building programmes; ongoing repair
-                                and maintenance will be offered.
+                                For fire system installation, we hire qualified
+                                experts. We can therefore manage your project
+                                with the utmost urgency and efficiency.
+                                Following installation, we thoroughly evaluate
+                                your system to make sure it is operating as it
+                                should.
                             </p>
-                            <img src={Message} alt='illustration' />
+                            <img src={install} alt='illustration' />
                         </li>
                     </ul>
                 </Container>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import { cardDetails } from '../components/Cards';
 import './projects.css';
 
@@ -29,7 +30,9 @@ export default function Projects() {
                                         <Card.Text className='my-3'>
                                             {e.subtitle}
                                         </Card.Text>
-                                        <a href={e.link}>Learn More</a>
+                                        <NavLink to='/contact'>
+                                            Learn More
+                                        </NavLink>
                                     </Card.Body>
                                 </Card>
                             </Col>

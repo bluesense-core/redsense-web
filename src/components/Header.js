@@ -65,6 +65,14 @@ export default function Header() {
                                 <Nav.Item>
                                     <NavLink
                                         onClick={handleClose}
+                                        to='/blog'
+                                        className='py-1 px-3'>
+                                        Blog
+                                    </NavLink>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <NavLink
+                                        onClick={handleClose}
                                         to='/projects'
                                         className='py-1 px-3'>
                                         Projects

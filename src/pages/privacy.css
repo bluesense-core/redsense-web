@@ -1,0 +1,30 @@
+#privacy-sect h1,
+#privacy-sect h4,
+#privacy-sect strong,
+#terms-sect h1,
+#terms-sect h4,
+#error-sect h1 {
+    font-weight: 600;
+    color: #af2c2b;
+}
+
+#privacy-sect h4,
+#terms-sect h4 {
+    margin-top: 1em;
+}
+
+#privacy-sect ul {
+    padding-left: 2rem;
+    list-style-type: disc;
+}
+
+#error-sect {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#error-sect a {
+    text-decoration: none;
+    color: #af2c2b;
+}

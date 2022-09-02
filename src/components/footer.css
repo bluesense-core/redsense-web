@@ -9,10 +9,6 @@ footer {
     width: 18em;
 }
 
-.copyright {
-    font-size: 1.2rem;
-}
-
 .social-links {
     height: 95.4px;
 }
@@ -29,7 +25,6 @@ footer {
 #footer-nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem;
 }
 
 #footer-nav a:hover,

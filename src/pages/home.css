@@ -82,8 +82,12 @@
     background-color: #af2c2b;
     width: 48%;
     transition: 500ms;
-    height: 320px;
+    height: 350px;
     box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.2);
+}
+
+#home-services .red-box p {
+    font-size: 0.875rem;
 }
 
 #home-services .red-box:hover {
@@ -107,7 +111,7 @@
 
 @media screen and (max-width: 1200px) {
     #home-services .red-box {
-        height: 360px;
+        height: 380px;
     }
 }
 
@@ -162,8 +166,9 @@
 }
 
 #home-work .process-card {
-    padding: 3em 1.5em;
-    width: 22%;
+    padding: 3em 1em;
+    width: 23%;
+    font-size: 0.9375rem;
     transition: 1000ms;
     box-shadow: 0px 24px 48px rgba(17, 16, 62, 0.12);
 }

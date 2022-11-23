@@ -9,6 +9,21 @@ footer {
     width: 18em;
 }
 
+footer .details {
+    margin-bottom: 0;
+}
+
+footer .details a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #af2c2b;
+    transition: color 500ms;
+}
+
+footer .details a:hover,
+footer .details a:active {
+    color: #fff;
+}
 .social-links {
     height: 95.4px;
 }

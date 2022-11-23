@@ -4,6 +4,8 @@ import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import Logo from '../images/logo.svg';
 import { FaLinkedin, FaTwitterSquare, FaFacebookSquare } from 'react-icons/fa';
 import './footer.css';
+import TC from '../files/RedSense - Technical Capabilities II.pdf';
+import Profile from '../files/v2_RedSense Profile - 2022.pdf';
 
 export default function Footer() {
     return (
@@ -18,7 +20,19 @@ export default function Footer() {
                         />
                     </Navbar.Brand>
 
-                    <p className='copyright my-4 d-sm-block d-none'>
+                    <p className='details mt-4 mb-1'>
+                        <a href={TC} target='_blank' rel='noreferrer'>
+                            View Company's Technical Capabilities
+                        </a>
+                    </p>
+
+                    <p className='details my-1'>
+                        <a href={Profile} target='_blank' rel='noreferrer'>
+                            View Company Profile
+                        </a>
+                    </p>
+
+                    <p className='copyright my-1 d-sm-block d-none'>
                         © RedSense | All rights reserved.
                     </p>
                 </div>

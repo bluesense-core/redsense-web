@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import Logo from '../images/logo.svg';
-import { FaLinkedin, FaTwitterSquare, FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedin, FaFacebookSquare } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 import './footer.css';
 import TC from '../files/RedSense - Technical Capabilities II.pdf';
 import Profile from '../files/v2_RedSense Profile - 2022.pdf';
@@ -47,10 +48,10 @@ export default function Footer() {
                         </a>
 
                         <a
-                            href='https://twitter.com/redsensehq'
+                            href='https://x.com/redsensehq'
                             target='_blank'
                             rel='noopener noreferrer'>
-                            <FaTwitterSquare className='social-icon me-sm-3 mx-3' />{' '}
+                            <FaSquareXTwitter className='social-icon me-sm-3 mx-3' />{' '}
                         </a>
 
                         <a
